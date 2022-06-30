@@ -25,7 +25,7 @@ const projetos = ref([
   </main>
 </template>
 
-<style>
+<style scoped>
 * {
   font-family: Sans-serif;
 }
