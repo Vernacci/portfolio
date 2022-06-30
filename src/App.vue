@@ -22,11 +22,11 @@
 
 .menu {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
   justify-content: center;
   gap: 30px;
   border-bottom: 1px solid var(--cambridge-blue);
-  padding: 20px;
+  padding: 30px;
 }
 
 .menu a {
@@ -49,7 +49,7 @@
 }
 
 .name::after {
-  content: 'Front-end Developer | UI-UX';
+  content: 'Front-end Developer';
   font-size: 1.2rem;
   text-align: center;
   display: block;
