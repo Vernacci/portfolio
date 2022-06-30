@@ -13,9 +13,7 @@
 
 <style>
 :root {
-  --rich-black-fogra-39: #070707ff;
-  --english-violet: #553555ff;
-  --old-lavender: #755b69ff;
+  --black: #242424;
   --cambridge-blue: #96c5b0ff;
   --magic-mint: #adf1d2ff;
 }
@@ -30,7 +28,7 @@
 }
 
 .menu a {
-  color: #242424;
+  color: var(--black);
   background-color: var(--cambridge-blue);
   text-decoration: none;
   font-size: 1.5rem;
