@@ -26,6 +26,14 @@ const projetos = ref([
 </template>
 
 <style scoped>
+:root {
+  --rich-black-fogra-39: #070707ff;
+  --english-violet: #553555ff;
+  --old-lavender: #755b69ff;
+  --cambridge-blue: #96c5b0ff;
+  --magic-mint: #adf1d2ff;
+}
+
 * {
   font-family: Sans-serif;
 }
