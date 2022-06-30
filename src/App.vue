@@ -25,7 +25,7 @@ const projetos = ref([
   </main>
 </template>
 
-<style scoped>
+<style>
 :root {
   --rich-black-fogra-39: #070707ff;
   --english-violet: #553555ff;
@@ -34,16 +34,12 @@ const projetos = ref([
   --magic-mint: #adf1d2ff;
 }
 
-* {
-  font-family: Sans-serif;
-}
-
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background-color: #242424;
+  color: #adf1d2ff;
+  border: 2px solid var(--cambridge-blue);
   width: 300px;
   height: 70px;
   border-radius: 5px;
@@ -54,7 +50,7 @@ const projetos = ref([
   font-weight: bold;
   font-size: 1.1rem;
   margin-left: 10px;
-  color: #242424;
+  color: #f8f8f8;
 }
 
 main {
@@ -62,9 +58,5 @@ main {
   justify-content: center;
   align-items: center;
   height: 600px;
-}
-
-body {
-  background-color: #f8f8f8;
 }
 </style>
