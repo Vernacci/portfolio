@@ -31,5 +31,13 @@
   font-size: 1.5rem;
   padding: 10px;
   border-radius: 8px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  background-color: var(--black);
+  color: var(--magic-mint);
+  border: 1px solid var(--magic-mint);
 }
 </style>
