@@ -3,6 +3,7 @@
 <template>
   <header class="intro">
     <h1 class="name">Hi! I'm Victor Vernasqui 👋</h1>
+    <p>A Front-end Developer</p>
   </header>
 </template>
 
@@ -23,11 +24,7 @@
   color: var(--magic-mint);
 }
 
-.name::after {
-  content: 'A Front-end Developer';
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 15px;
-  display: block;
+p {
+  color: var(--magic-mint);
 }
 </style>
