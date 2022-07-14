@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <header>
-    <router-link to="/">Vv</router-link>
+    <router-link to="/" class="logo">Vv</router-link>
     <nav class="nav">
       <ul class="nav-content">
         <li>
@@ -34,6 +34,11 @@ header a {
   font-size: 1.8rem;
   color: white;
   text-decoration: none;
+}
+
+.logo {
+  border-bottom: 1px solid var(--green);
+  padding: 5px;
 }
 
 .nav {
