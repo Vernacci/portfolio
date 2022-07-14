@@ -15,14 +15,14 @@ main {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 h1::after {
   content: '';
   width: 110px;
   height: 2px;
-  margin-top: 10px;
+  margin-top: 15px;
   display: block;
   background-color: var(--green);
 }
