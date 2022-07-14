@@ -1,43 +1,77 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 
 <template>
-  <nav class="menu">
-    <router-link to="/">About me</router-link>
-    <router-link to="/projects">Projects</router-link>
-    <router-link to="/contact">Contact me</router-link>
-  </nav>
+  <header>
+    <router-link to="/">Vv</router-link>
+    <nav class="nav">
+      <ul class="nav-content">
+        <li>
+          <router-link to="/about">About</router-link>
+        </li>
+        <li>
+          <router-link to="/projects">Projects</router-link>
+        </li>
+        <li>
+          <router-link to="/contact">Contact me</router-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <style>
 :root {
-  --black: #242424;
-  --cambridge-blue: #96c5b0ff;
-  --magic-mint: #adf1d2ff;
+  --black: #0c0c0c;
+  --bg-black: #323232;
+  --green: #69dc9e;
 }
 
-.menu {
+header {
   display: flex;
-  margin-top: 10px;
-  justify-content: center;
-  gap: 30px;
-  border-bottom: 1px solid var(--cambridge-blue);
-  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
-.menu a {
-  color: var(--black);
-  background-color: var(--cambridge-blue);
+header a {
+  font-size: 1.3rem;
+  color: white;
   text-decoration: none;
-  font-size: 1.5rem;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  transition: all 0.3s;
 }
 
-.menu a:hover {
-  background-color: var(--black);
-  color: var(--magic-mint);
-  border: 1px solid var(--magic-mint);
+.nav {
+  margin-right: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  font-size: 1.3rem;
+}
+
+.nav-content a:hover {
+  background-color: var(--bg-black);
+}
+
+span {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
 }
 </style>
