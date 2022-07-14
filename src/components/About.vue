@@ -12,5 +12,4 @@ section {
   line-height: 1.9rem;
   color: white;
 }
-
-
+</style>
