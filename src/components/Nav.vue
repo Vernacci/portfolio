@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router';
   </header>
 </template>
 
-<style>
+<style scoped>
 header {
   display: flex;
   justify-content: space-between;
@@ -31,14 +31,15 @@ header {
 }
 
 header a {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
 }
 
 .logo {
-  border-bottom: 1px solid var(--green);
+  border-bottom: 1px solid #ffc83d;
   padding: 5px;
+  font-size: 1.8rem;
 }
 
 .nav {

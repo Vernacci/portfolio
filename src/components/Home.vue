@@ -24,7 +24,7 @@ h1::after {
   height: 2px;
   margin-top: 15px;
   display: block;
-  background-color: var(--green);
+  background-color: var(--yellow);
 }
 
 p {
