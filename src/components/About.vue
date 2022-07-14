@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Contact</h1>
+    <h1>About</h1>
   </section>
 </template>
 
@@ -12,4 +12,5 @@ section {
   line-height: 1.9rem;
   color: white;
 }
-</style>
+
+
