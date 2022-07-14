@@ -22,12 +22,6 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style>
-:root {
-  --black: #0c0c0c;
-  --bg-black: #323232;
-  --green: #69dc9e;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +31,7 @@ header {
 }
 
 header a {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: white;
   text-decoration: none;
 }
@@ -48,7 +42,7 @@ header a {
 
 ul {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 li {
