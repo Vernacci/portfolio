@@ -5,9 +5,20 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      :root {
+        --black: #0c0c0c;
+        --bg-black: #323232;
+        --green: #69dc9e;
+      }
+
       body {
-        background-color: #0c0c0c;
+        background-color: var(--black);
         font-family: sans-serif;
+      }
+
+      ::selection {
+        background-color: var(--green);
+        color: var(--black);
       }
     </style>
     <title>Victor Vernasqui</title>
