@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>Hello i'm Victor Vernasqui 👋</h1>
-    <p>I'm a Front-end Developer based in Brazil</p>
+    <h2>I'm a Front-end Developer based in Brazil</h2>
   </main>
 </template>
 
@@ -25,9 +25,5 @@ h1::after {
   margin-top: 15px;
   display: block;
   background-color: var(--yellow);
-}
-
-p {
-  font-size: 1.5rem;
 }
 </style>
