@@ -8,9 +8,6 @@ import { RouterLink } from 'vue-router';
     <nav class="nav">
       <ul class="nav-content">
         <li>
-          <router-link to="/about">About</router-link>
-        </li>
-        <li>
           <router-link to="/projects">Projects</router-link>
         </li>
         <li>

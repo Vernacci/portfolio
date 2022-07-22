@@ -3,6 +3,7 @@
 <template>
   <section>
     <h1>Projects</h1>
+    <h2>Frontend Mentors</h2>
     <div class="container">
       <h3 class="title">Interactive rating Component</h3>
       <img
