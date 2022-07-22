@@ -3,46 +3,36 @@
 <template>
   <section>
     <h1>Projects</h1>
-    <h2>Frontend Mentors</h2>
-    <div class="container">
-      <h3 class="title">Interactive rating Component</h3>
-      <img
-        src="./img/rating.png"
-        alt="Interactive Rating component screeshot"
-      />
-      <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-        dolorum dolores recusandae possimus tempora. Corrupti commodi obcaecati
-        unde id necessitatibus architecto esse distinctio nisi, minima
-        praesentium pariatur, eveniet nam saepe!
-      </p>
-      <h3 class="title">Advice Generator App</h3>
-      <img src="./img/advice.png" alt="Advice Generator App screeshot" />
-      <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-        dolorum dolores recusandae possimus tempora. Corrupti commodi obcaecati
-        unde id necessitatibus architecto esse distinctio nisi, minima
-        praesentium pariatur, eveniet nam saepe!
-      </p>
-      <h3 class="title">Tip Calculator App</h3>
-      <img src="./img/calculator.png" alt="Tip Calculator App screeshot" />
-      <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-        dolorum dolores recusandae possimus tempora. Corrupti commodi obcaecati
-        unde id necessitatibus architecto esse distinctio nisi, minima
-        praesentium pariatur, eveniet nam saepe!
-      </p>
-      <h3 class="title">Interactive Pricing Component</h3>
-      <img
-        src="./img/pricing.png"
-        alt="Interactive Pricing Component screeshot"
-      />
-      <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-        dolorum dolores recusandae possimus tempora. Corrupti commodi obcaecati
-        unde id necessitatibus architecto esse distinctio nisi, minima
-        praesentium pariatur, eveniet nam saepe!
-      </p>
+    <h2>Frontend Mentors:</h2>
+    <div class="projects-container">
+      <a
+        href="https://vernacci.github.io/interactive-rating-component/"
+        target="_blank"
+        class="project-link"
+      >
+        <img src="./img/rating.png" alt="Interactive Rating Component" />
+      </a>
+      <a
+        href="https://vernacci.github.io/advice-generator-app-main/"
+        target="_blank"
+        class="project-link"
+      >
+        <img src="./img/advice.png" alt="Advice Generator App" />
+      </a>
+      <a
+        href="https://vernacci.github.io/tip-calculator-app/"
+        target="_blank"
+        class="project-link"
+      >
+        <img src="./img/calculator.png" alt="Tip Calculator App" />
+      </a>
+      <a
+        href="https://interactive-pricing-component25.netlify.app/"
+        target="_blank"
+        class="project-link"
+      >
+        <img src="./img/pricing.png" alt="Interactive Pricing Component" />
+      </a>
     </div>
   </section>
 </template>
@@ -58,5 +48,18 @@ section {
 
 img {
   width: 100%;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+img:hover {
+  filter: blur(3px);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 20px;
 }
 </style>
