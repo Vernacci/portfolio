@@ -1,13 +1,8 @@
-<script setup>
-const images = [{ src: './img/advice.png' }, { src: './img/calculator.png' }];
-</script>
+<script setup></script>
 
 <template>
   <section>
-    <h1>Contact</h1>
-    <div v-for="img in images">
-      <img :src="img.src" alt="" />
-    </div>
+    <h1>Say hello!</h1>
   </section>
 </template>
 
