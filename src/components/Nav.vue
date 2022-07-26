@@ -29,7 +29,7 @@ header {
 
 header a {
   font-size: 1.5rem;
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ li {
 
 .nav-content a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   padding: 10px;
   border-radius: 5px;
   transition: all 0.5s;
@@ -69,6 +69,6 @@ span {
   display: flex;
   justify-content: start;
   align-items: center;
-  color: white;
+  color: var(--white);
 }
 </style>

@@ -12,6 +12,6 @@ section {
   margin-top: 120px;
   max-width: 650px;
   line-height: 1.9rem;
-  color: white;
+  color: var(--white);
 }
 </style>

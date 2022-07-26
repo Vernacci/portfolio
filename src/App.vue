@@ -9,15 +9,16 @@ import Nav from './components/Nav.vue';
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+@import url('./bg.css');
 
 :root {
   --black: #0c0c0c;
   --bg-black: #323232;
   --yellow: #ffc83d;
+  --white: #fdfdfd;
 }
 
 body {
-  background-color: var(--black);
   font-family: 'Rubik', sans-serif;
 }
 
