@@ -40,9 +40,9 @@
 <style>
 section {
   margin: 60px auto;
-  margin-top: 100px;
+  margin-top: 70px;
   max-width: 650px;
-  line-height: 1.9rem;
+  line-height: 1.7rem;
   color: white;
 }
 
@@ -53,7 +53,7 @@ img {
 }
 
 img:hover {
-  filter: blur(1.5px);
+  filter: blur(1.3px);
 }
 
 .projects-container {

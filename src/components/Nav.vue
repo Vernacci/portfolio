@@ -62,7 +62,7 @@ li {
 }
 
 .nav-content a:hover {
-  background-color: var(--bg-black);
+  color: var(--yellow);
 }
 
 span {

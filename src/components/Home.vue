@@ -25,21 +25,21 @@
 <style>
 main {
   margin: 60px auto;
-  margin-top: 100px;
+  margin-top: 70px;
   max-width: 650px;
   line-height: 1.7rem;
   color: var(--white);
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 h1::after {
   content: '';
   width: 110px;
   height: 2px;
-  margin-top: 15px;
+  margin-top: 20px;
   display: block;
   background-color: var(--yellow);
 }
