@@ -39,8 +39,8 @@
 
 <style>
 section {
-  margin: 40px auto;
-  margin-top: 120px;
+  margin: 60px auto;
+  margin-top: 100px;
   max-width: 650px;
   line-height: 1.9rem;
   color: white;
@@ -49,11 +49,11 @@ section {
 img {
   width: 100%;
   border-radius: 15px;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 img:hover {
-  filter: blur(3px);
+  filter: blur(1.5px);
 }
 
 .projects-container {
