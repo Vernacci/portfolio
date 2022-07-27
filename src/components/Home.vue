@@ -11,7 +11,7 @@
       It all started with gaming. I loved games back then, and still do, and i
       really wanted to know how all of those experiences worked from behind the
       scenes, how the developers were able to put so much love and passion into
-      a small Playstation 2 disk. I renember having a computer running Windows
+      a small Playstation 2 disk. I remember having a computer running Windows
       XP at home, and i used that to try and find answers.
     </p>
     <p>
@@ -45,6 +45,6 @@ h1::after {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 </style>

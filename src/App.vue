@@ -39,6 +39,7 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--bg-black);
+  border-radius: 30px;
 }
 
 /* Handle on hover */

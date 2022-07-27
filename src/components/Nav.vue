@@ -34,9 +34,15 @@ header a {
 }
 
 .logo {
-  border-bottom: 1px solid #ffc83d;
+  border-bottom: 1px solid var(--yellow);
   padding: 5px;
   font-size: 1.8rem;
+  transition: all 0.5s;
+}
+
+.logo:hover {
+  color: var(--yellow);
+  border-bottom: 1px solid var(--white);
 }
 
 .nav {
