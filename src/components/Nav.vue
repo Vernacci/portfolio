@@ -8,10 +8,10 @@ import { RouterLink } from 'vue-router';
     <nav class="nav">
       <ul class="nav-content">
         <li>
-          <router-link to="/projects">Projects</router-link>
+          <router-link to="/projects">01. Projects</router-link>
         </li>
         <li>
-          <router-link to="/contact">Contact me</router-link>
+          <router-link to="/contact">02. Contact me</router-link>
         </li>
       </ul>
     </nav>
