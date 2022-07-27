@@ -8,6 +8,7 @@
       <a
         href="https://vernacci.github.io/interactive-rating-component/"
         target="_blank"
+        rel="noopener noreferrer"
         class="project-link"
       >
         <img src="./img/rating.png" alt="Interactive Rating Component" />
@@ -15,6 +16,7 @@
       <a
         href="https://vernacci.github.io/advice-generator-app-main/"
         target="_blank"
+        rel="noopener noreferrer"
         class="project-link"
       >
         <img src="./img/advice.png" alt="Advice Generator App" />
@@ -22,6 +24,7 @@
       <a
         href="https://vernacci.github.io/tip-calculator-app/"
         target="_blank"
+        rel="noopener noreferrer"
         class="project-link"
       >
         <img src="./img/calculator.png" alt="Tip Calculator App" />
@@ -29,6 +32,7 @@
       <a
         href="https://interactive-pricing-component25.netlify.app/"
         target="_blank"
+        rel="noopener noreferrer"
         class="project-link"
       >
         <img src="./img/pricing.png" alt="Interactive Pricing Component" />
@@ -41,7 +45,7 @@
 section {
   margin: 60px auto;
   margin-top: 70px;
-  max-width: 650px;
+  max-width: 750px;
   line-height: 1.7rem;
   color: white;
 }
