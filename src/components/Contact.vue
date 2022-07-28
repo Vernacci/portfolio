@@ -28,6 +28,11 @@
           class="form-lg"
         ></textarea>
         <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://localhost:3000/#/thanks"
+        />
         <button type="submit" class="submit-btn">Send</button>
       </form>
     </div>
@@ -38,7 +43,7 @@
 section {
   margin: 60px auto;
   margin-top: 70px;
-  max-width: 650px;
+  max-width: 700px;
   line-height: 1.9rem;
   color: var(--white);
 }
