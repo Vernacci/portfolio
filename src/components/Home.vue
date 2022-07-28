@@ -26,7 +26,7 @@
 main {
   margin: 60px auto;
   margin-top: 70px;
-  max-width: 650px;
+  max-width: 700px;
   line-height: 1.7rem;
   color: var(--white);
 }

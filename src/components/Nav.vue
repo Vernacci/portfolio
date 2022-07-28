@@ -44,8 +44,7 @@ header a {
 }
 
 .logo:hover {
-  color: var(--yellow);
-  border-bottom: 1px solid var(--white);
+  background-color: var(--bg-black);
 }
 
 .nav {
@@ -70,6 +69,10 @@ li {
 }
 
 .nav-content a:hover {
+  background-color: var(--bg-black);
+}
+
+a.router-link-active {
   color: var(--yellow);
 }
 
