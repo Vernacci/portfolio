@@ -41,7 +41,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 section {
   margin: 60px auto;
   margin-top: 70px;
