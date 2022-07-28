@@ -31,7 +31,7 @@
         <input
           type="hidden"
           name="_next"
-          value="http://localhost:3000/#/thanks"
+          value="https://vernaccidev.netlify.app/#/thanks"
         />
         <button type="submit" class="submit-btn">Send</button>
       </form>
