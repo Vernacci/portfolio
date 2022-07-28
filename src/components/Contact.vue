@@ -3,20 +3,38 @@
 <template>
   <section>
     <h1>Say hello!</h1>
-    <h2>You can call me here:</h2>
-    <div class="email-container">
-      <a
-        href="mailto:victorvernasqui25@outlook.com"
-        class="mail"
-        rel="noopener noreferrer"
-        target="_blank"
-        >Send me a message!</a
+    <div class="email-form">
+      <form
+        action="https://formsubmit.co/86c3017a5fffec3ff5b41acf4cd56c04"
+        method="POST"
       >
+        <input
+          type="text"
+          name="name"
+          required
+          class="form-sm"
+          placeholder="Your name here"
+        />
+        <input
+          type="email"
+          name="email"
+          required
+          class="form-sm"
+          placeholder="Your email here"
+        />
+        <textarea
+          name="message"
+          placeholder="Your message here"
+          class="form-lg"
+        ></textarea>
+        <input type="hidden" name="_captcha" value="false" />
+        <button type="submit" class="submit-btn">Send</button>
+      </form>
     </div>
   </section>
 </template>
 
-<style scoped>
+<style>
 section {
   margin: 60px auto;
   margin-top: 70px;
@@ -25,23 +43,47 @@ section {
   color: var(--white);
 }
 
-.mail {
-  text-decoration: none;
-  color: var(--white);
+.form-sm,
+.form-lg {
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
   background-color: var(--bg-black);
-  padding: 20px;
-  border-radius: 10px;
+  color: var(--white);
   border: 2px solid transparent;
   font-size: 1.3rem;
-  transition: all 0.5s;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
-.mail:hover {
-  background-color: transparent;
+.form-sm:focus,
+.form-lg:focus {
+  outline: none;
   border: 2px solid var(--yellow);
+  background-color: var(--black);
 }
 
-.email-container {
-  margin-top: 50px;
+.form-lg {
+  height: 200px;
+  resize: none;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 20px 60px;
+  border: 2px solid transparent;
+  background-color: var(--bg-black);
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  border: 2px solid var(--yellow);
+  background-color: transparent;
+  cursor: pointer;
 }
 </style>
