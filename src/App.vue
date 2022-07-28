@@ -4,7 +4,11 @@ import Nav from './components/Nav.vue';
 
 <template>
   <Nav />
-  <router-view></router-view>
+  <router-view v-slot="{ Component }">
+    <transition mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>
 
 <style>
@@ -26,21 +30,26 @@ body {
   color: var(--black);
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: var(--black);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--bg-black);
   border-radius: 30px;
 }
 
-/* Handle on hover */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>
