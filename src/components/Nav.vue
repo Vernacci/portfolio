@@ -11,7 +11,10 @@ import { RouterLink } from 'vue-router';
           <router-link to="/projects">01. Projects</router-link>
         </li>
         <li>
-          <router-link to="/contact">02. Contact me</router-link>
+          <router-link to="/skills">02. Skills</router-link>
+        </li>
+        <li>
+          <router-link to="/contact">03. Contact me</router-link>
         </li>
       </ul>
     </nav>
@@ -36,7 +39,7 @@ header a {
 .logo {
   border-bottom: 1px solid var(--yellow);
   padding: 5px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   transition: all 0.5s;
 }
 
@@ -62,7 +65,6 @@ li {
   text-decoration: none;
   color: var(--white);
   padding: 10px;
-  border-radius: 5px;
   transition: all 0.5s;
   font-size: 1.3rem;
 }
