@@ -8,22 +8,28 @@
         action="https://formsubmit.co/86c3017a5fffec3ff5b41acf4cd56c04"
         method="POST"
       >
+        <label for="name">Name:</label>
         <input
           type="text"
+          id="name"
           name="name"
           required
           class="form-sm"
           placeholder="Your name here"
         />
+        <label for="email">E-mail:</label>
         <input
           type="email"
+          id="email"
           name="email"
           required
           class="form-sm"
-          placeholder="Your email here"
+          placeholder="Your e-mail here"
         />
+        <label for="message">Message:</label>
         <textarea
           name="message"
+          id="message"
           placeholder="Your message here"
           class="form-lg"
         ></textarea>
@@ -57,7 +63,7 @@ section {
   color: var(--white);
   border: 2px solid transparent;
   font-size: 1.3rem;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   transition: all 0.3s;
@@ -79,16 +85,22 @@ section {
   margin-top: 20px;
   padding: 20px 60px;
   border: 2px solid transparent;
-  background-color: var(--bg-black);
-  color: var(--white);
+  background-color: var(--yellow);
+  color: var(--black);
   border-radius: 10px;
   font-size: 1.3rem;
   transition: all 0.3s;
+  width: 724px;
 }
 
 .submit-btn:hover {
   border: 2px solid var(--yellow);
-  background-color: transparent;
+  background-color: var(--black);
+  color: var(--white);
   cursor: pointer;
+}
+
+label {
+  font-size: 1.3rem;
 }
 </style>
