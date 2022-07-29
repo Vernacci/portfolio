@@ -54,10 +54,11 @@ img {
   width: 100%;
   border-radius: 15px;
   transition: all 0.5s;
+  filter: grayscale(100%);
 }
 
 img:hover {
-  filter: blur(1.3px);
+  filter: none;
 }
 
 .projects-container {
