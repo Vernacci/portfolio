@@ -2,6 +2,7 @@
   <section>
     <h1>Skills</h1>
     <div class="skills-container">
+      <img src="./svgs/html5.svg" alt="html logo" />
       <img src="./svgs/css.svg" alt="css logo" />
       <img src="./svgs/js.svg" alt="js logo" />
       <img src="./svgs/react.svg" alt="react logo" />
