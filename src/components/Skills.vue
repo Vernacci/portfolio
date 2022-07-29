@@ -2,12 +2,12 @@
   <section>
     <h1>Skills</h1>
     <div class="skills-container">
-      <img src="./svgs/html.SVG" alt="HTML logo" />
-      <img src="./svgs/css.SVG" alt="css logo" />
-      <img src="./svgs/js.SVG" alt="js logo" />
-      <img src="./svgs/react.SVG" alt="react logo" />
-      <img src="./svgs/Vue.SVG" alt="Vue.js logo" />
-      <img src="./svgs/Git.SVG" alt="Git logo" />
+      <img src="./svgs/html.svg" alt="HTML logo" />
+      <img src="./svgs/css.svg" alt="css logo" />
+      <img src="./svgs/js.svg" alt="js logo" />
+      <img src="./svgs/react.svg" alt="react logo" />
+      <img src="./svgs/vue.svg" alt="Vue.js logo" />
+      <img src="./svgs/git.svg" alt="Git logo" />
     </div>
   </section>
 </template>
